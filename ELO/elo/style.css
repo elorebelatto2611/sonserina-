@@ -1,0 +1,66 @@
+
+*{
+    margin: 0px;
+}
+body{
+    background:  #364134;
+    padding: 0px;
+}
+    .sonserina{ 
+        width: 2000px;
+height: 110px;
+flex-shrink: 0;
+background: #000;
+
+    }
+    .cobra{
+        width: 90px;
+height: 100px;
+flex-shrink: 0;
+    }
+    .hp{
+        width: 280px;
+        height: 100px;
+        flex-shrink: 0;
+        margin-left: 700px;
+    }
+    .todos{
+        text-align: center;
+    }
+   
+    @media(max-width :450px){
+        body{ background-color: #364134;}
+        *{
+            margin: 0px;
+        }
+        body{
+            background:  #364134;
+            padding: 0px;
+        }
+            .sonserina{ 
+                width: 450px;
+                height: 61px;
+                flex-shrink: 0;
+        background: #000;
+        
+            }
+            .cobra{
+                width: 41px;
+                height: 48px;
+                flex-shrink: 0;
+            }
+            .hp{
+                width: 129.028px;
+                height: 41.186px;
+                margin-left:120px;
+
+            }
+            .casas{
+                text-align: center;
+                width: 430px;
+                height: 331px;
+            }
+            
+           
+    }
+         
